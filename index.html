@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    function redirigir() {
+      window.location.href = 'index2.html';
+    }
+  </script>
+  <script>
+    function redirigirFacebook() {
+      var enlace = "https://www.facebook.com/nakateguia"; 
+      window.location.href = enlace;
+    }
+  </script>
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Guía turístico</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>   
+      body {  
+        background-image: url("fondo/16-9-16-10-high-definition.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+        #destacado {
+            background-image: url('fondo/japond.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; 
+            
+            
+      } 
+    </style> 
+   
+</head>
+<body>
+  
+ 
+    <header>
+   
+        <nav>
+            <ul>
+                
+              <button class="japanese-button" onclick="redirigirFacebook()">Contacto</button>
+                <button class="japanese-button">Informacion</button>
+                <button class="japanese-button" onclick="redirigir()">Mis Redes</button>
+            </ul> 
+        </nav>
+    </header> 
+
+    <main>  
+        <section id="destacado">
+             <h1 class="cartel">Bienvenido a nuestra guía turístico</h1>
+           
+        </section> 
+
+        <section id="acerca-de" style="background-image: url('logo/jp2.jpg'); background-size: auto 150%; background-repeat: no-repeat;">
+          
+            <h2>Acerca de nuestra guía turístico</h2>
+            
+            
+            <button class="button-85" role="button">👇Lugares Mas Destacados👇 </button>
+           
+           </section>
+
+        <section id="lugares">
+         
+            <ul>
+                <div class="container">
+                    <div class="card">
+                      <div class="front">
+                        <img src="lugares/Tokio-Japon-768x512.jpg" alt="Imagen 1">
+                      </div>
+                      <div class="back">
+                        <h2>Tokio</h2>
+                        <button class="button">Mas Info.</button>
+                        
+
+                      </div> 
+                    </div> 
+                    <div class="card">
+                      <div class="front">
+                        <img src="lugares/KIOTO.jpg" alt="Imagen 2">
+                      </div>
+                      <div class="back">
+                        <h2>Kioto</h2>
+                        <button class="button">Mas Info.</button>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="front">
+                        <img src="lugares/montefuji.jpg" alt="Lugar3">
+                      </div>
+                      <div class="back">
+                        <h2>Monte Fuji</h2>
+                        <button class="button">Mas Info.</button>
+                      </div>
+                    </div>
+                  </div>
+            </ul>
+        </section>
+
+        
+    </main>
+    <footer>
+      <div class="icon">
+        <svg height="40" width="40">
+          <circle cx="20" cy="20" r="15" stroke="white" stroke-width="2" fill="none"></circle>
+        </svg>
+        <i class='bx bxl-instagram'></i>
+      </div>
+    
+      <div class="icon">
+        <svg height="40" width="40">
+          <circle cx="20" cy="20" r="15" stroke="white" stroke-width="2" fill="none"></circle>
+        </svg>
+        <i class='bx bxl-facebook-circle'></i>
+      </div> 
+    
+      <div class="icon">
+        <svg height="40" width="40">
+          <circle cx="20" cy="20" r="15" stroke="white" stroke-width="2" fill="none"></circle>
+        </svg>
+        <i class='bx bxl-youtube'></i> <!-- Reemplazado por el logo de YouTube -->
+      </div>
+    
+      <div class="icon">
+        <svg height="40" width="40">
+          <circle cx="20" cy="20" r="15" stroke="white" stroke-width="2" fill="none"></circle>
+        </svg>
+        <i class='bx bxl-twitter'></i>
+        
+      </div>
+
+    </footer>
+    
+      
+    </body>
+   
+      </html>
+          
+        
